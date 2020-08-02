@@ -4,6 +4,7 @@
         <meta charset="UFT-8">
         <title>Portafolio</title>
         <link rel="stylesheet" href="style.css">
+       
       </head>
       <body>
         <header>
@@ -21,8 +22,8 @@
             <div class="absolute">
             <img  class="img"  src="img/perfil.jpg" alt="foto perfil" />
             <div class="redes">
-                <img src="img/github-logo.png" alt="github-logo" />
-                <img src="img/linkedin.png" alt="logo-linkedin" />
+                <a href="https://github.com/genesysrm"><img src="img/github-logo.png" alt="github-logo"  /></a>
+                <a href="https://www.linkedin.com/in/genesysrondon914762182/"><img src="img/linkedin.png" alt="logo-linkedin"  /></a> 
                 <img src="img/stack-overflow.png" alt="logo-stackoverflow" />
            </div>  
             </div>    
@@ -91,25 +92,34 @@
                 <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 <p>Você também pode me encontrar nas seguintes redes sociais:</p>
                 <div class="redes">
-                    <img src="img/instagram.png" alt="instagram-logo" />
-                    <img src="img/facebook.png" alt="logo-facebook" />
-                    <img src="img/twitter.png" alt="logo-twitter" />
+                   <a href="https://instagram.com/genesysmer"><img src="img/instagram.png" alt="instagram-logo" /></a> 
+                    <a href="https://www.facebook.com/gene.rondon1"><img src="img/facebook.png" alt="logo-facebook" /></a>
+                    
                </div>      
             </div>
             <div class="formulario">
-                <form>
-                    <label for="name">NOME:</label>
-                    <input type="text" id="name">
-                    <label for="name">E-MAIL:</label>
-                    <input type="email" id="email">
-                    <label for="name">ASSUNTO:</label>
-                    <input type="text" id="assunto">
-                    <label for="name">MENSSAGEM:</label>
-                    <textarea name="textarea" rows="10" cols="50"></textarea>
+                <form action="" name="form">
+                    <label >NOME:
+                    <input type="text" name="name" >
+                    </label>
+                    <label for="email">E-MAIL:
+                    <input type="email" name="email"  >
+                    </label>
+                    <label for="assunto">ASSUNTO:
+                    <input type="text" name="assunto" >
+                    </label>
+                    <label for="textarea">MENSSAGEM:
+                    <textarea name="textarea" rows="10" cols="50"  ></textarea>
+                    </label>
                     <button type="submit" id="summit">ENVIAR</button>
                 </form>
+                <p id="error"></p>
             </div>
         </div>
         </section>
+
+        
+    <script src="script.js"></script>
+    
       </body>
 </html>

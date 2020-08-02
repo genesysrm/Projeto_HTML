@@ -434,27 +434,32 @@ form {
 }
 
 
-@media (max-width: 1600px){
+@media  (min-width: 1024px){
     .absolute{
         left: 10%;
     }
 
     .presentacion{
         padding-left: 40%;
+       
     }
 
     .formacion{
         padding-left: 30%;
+        
     }
     .experiencia{
         padding-left: 30%;
+        
     }
     .projetos{
         padding-left: 30%;
         height: auto;
+        
     }
     .contato{
         padding-left: 30%;
+        
     }
     input{
         width:298px
